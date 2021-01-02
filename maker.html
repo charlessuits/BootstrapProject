@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <title>NuCamp: A Better Way To Camp</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">    
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-xl-10 ">
+                    <h1 class="text-light">Chuck/Jorge</h1>
+                    
+                </div>               
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                . . .
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                                About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a>
+                        </li>
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Background
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="inquiry.html">What is Inquriy-Based?</a>
+                              <a class="dropdown-item" href="maker.html">What is a Maker Space?</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    </ul>
+                    <span class="navbar-test ml-auto">
+                        <a role="button" data-toggle="modal" data-target="#loginModal"> <i class="fa fa-sign-in"></i> Login
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+   
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <img class="full-width-image" src="img/maker.png" width="1122" height="1588" usemap="#inquirymap">
+        </div>
+    </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $(`[data-toggle="tooltip"]`).tooltip()
+        })
+    </script>
+    
+
+    <map name="inquirymap">
+    <!-- #$-:Image map file created by GIMP Image Map plug-in -->
+    <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+    <!-- #$-:Please do not edit lines starting with "#$" -->
+    <!-- #$VERSION:2.3 -->
+    <!-- #$AUTHOR:CharlesSuits -->
+    <area shape="circle" coords="860,199,39" href="www.edutopia.org/blog/what-heck-inquiry-based-learning-heather-wolpert-gawron" />
+    <area shape="circle" coords="997,214,39" href="www.teachthought.com/pedagogy/4-phases-inquiry-based-learning-guide-teachers/" />
+    <area shape="circle" coords="781,321,44" href="https://gradepowerlearning.com/what-is-inquiry-based-learning/" />
+    <area shape="circle" coords="850,437,39" href="http://http://theconversation.com/explainer-what-is-inquiry-based-learning-and-how-does-it-help-prepare-children-for-the-real-world-115299" />
+    <area shape="circle" coords="1002,433,41" href="blogs.ibo.org/sharingpyp/2017/07/11/making-the-inquiry-happen/" />
+    <area shape="circle" coords="1052,326,44" href="http://https://www.wabisabilearning.com/blog/inquiry-based-learning-examples" />
+    </map>
+    
+
+</body>
+
+</html>
